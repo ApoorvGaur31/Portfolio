@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Apoorv Gaur | Aspiring Software Engineer</title>
+  <meta name="description" content="Personal portfolio of Apoorv Gaur — Aspiring Software Engineer learning Java, Python, and Web Development." />
+  
+  <!-- Google Fonts: Inter & Fira Code -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ================= HEADER & NAVIGATION ================= -->
+  <header class="navbar">
+    <div class="nav-container">
+      <a href="#" class="nav-logo">
+        <span class="logo-badge">AG</span>
+        <span class="logo-text">Apoorv Gaur</span>
+      </a>
+
+      <!-- Desktop Links -->
+      <nav class="nav-menu">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <!-- Right Controls: Theme Toggle & Mobile Menu Button -->
+      <div class="nav-actions">
+        <button id="theme-toggle" class="btn-icon" aria-label="Toggle Dark/Light Mode">
+          <span id="theme-icon">☀️</span>
+        </button>
+
+        <a href="#contact" class="btn btn-primary nav-cta">Connect</a>
+
+        <button id="mobile-toggle" class="btn-icon mobile-menu-btn" aria-label="Open Menu">
+          <span>☰</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Dropdown Menu -->
+    <div id="mobile-dropdown" class="mobile-dropdown hidden">
+      <a href="#about" class="mobile-link">About</a>
+      <a href="#skills" class="mobile-link">Skills</a>
+      <a href="#projects" class="mobile-link">Projects</a>
+      <a href="#contact" class="mobile-link">Contact</a>
+    </div>
+  </header>
+
+  <!-- ================= HERO SECTION ================= -->
+  <section class="hero-section">
+    <div class="container">
+      <div class="hero-badge">
+        <span class="pulse-dot"></span>
+        <span>Welcome to my 1st ever project</span>
+      </div>
+
+      <h1 class="hero-title">
+        Hi, I'm <span class="text-gradient">Apoorv Gaur</span>.<br />
+        <span class="hero-subtitle">Aspiring Software Engineer.</span>
+      </h1>
+
+      <p class="hero-description">
+        I'm starting my software journey with solid foundations in 
+        <strong>Java</strong> and <strong>Python</strong>. This website is my very first hands-on project, 
+        created to learn web fundamentals and document my growth as a developer.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#projects" class="btn btn-primary">View My Projects ↓</a>
+        <a href="#contact" class="btn btn-outline">Get in Touch</a>
+      </div>
+
+      <!-- Social Links Bar -->
+      <div class="hero-socials">
+        <span class="social-label">Find Me Online:</span>
+        <a href="https://github.com/ApoorvGaur31" target="_blank" rel="noopener noreferrer" class="social-pill">
+          <span>GitHub</span>
+        </a>
+        <a href="https://www.linkedin.com/in/apoorv-gaur-6a7969313/" target="_blank" rel="noopener noreferrer" class="social-pill">
+          <span>LinkedIn</span>
+        </a>
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=apoorvgaur2006@gmail.com" target="_blank" rel="noopener noreferrer" class="social-pill">
+          <span>Email ↗</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= ABOUT SECTION ================= -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="section-tag">About Me</div>
+      <h2 class="section-title">My Journey So Far</h2>
+
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            Hello! I'm Apoorv. I have always been curious about how software works behind the scenes. 
+            Instead of jumping into complicated frameworks, I chose to start with core programming languages: 
+            <strong>Java</strong> and <strong>Python</strong>.
+          </p>
+          <p>
+            With <strong>Java</strong>, I learned the discipline of Object-Oriented Programming (OOP)—working with classes, 
+            methods, and strict types. With <strong>Python</strong>, I discovered how clean, versatile, and readable code can be 
+            for quick scripts and solving logic problems.
+          </p>
+          <p>
+            This website represents my <strong>first step into building things for the real world</strong>. 
+            I built it using pure HTML, CSS, and JavaScript so I truly understand every single line of code.
+          </p>
+        </div>
+
+        <div class="about-cards">
+          <div class="feature-card">
+            <div class="card-icon">☕</div>
+            <div class="card-content">
+              <h3>Java Foundations</h3>
+              <p>Object-Oriented Programming, classes, objects, and console logic.</p>
+            </div>
+          </div>
+
+          <div class="feature-card">
+            <div class="card-icon">🐍</div>
+            <div class="card-content">
+              <h3>Python Problem Solving</h3>
+              <p>Clean scripting, algorithmic thinking, and building basic logic utilities.</p>
+            </div>
+          </div>
+
+          <div class="feature-card">
+            <div class="card-icon">🌐</div>
+            <div class="card-content">
+              <h3>Web Fundamentals</h3>
+              <p>Learning how HTML structure, CSS styling, and JavaScript interactivity connect.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= SKILLS SECTION ================= -->
+  <section id="skills" class="section section-alt">
+    <div class="container">
+      <div class="section-tag">Skills & Learning</div>
+      <h2 class="section-title">What I'm Working With</h2>
+      <p class="section-subtitle">
+        An honest look at what I know today and what I am actively practicing.
+      </p>
+
+      <div class="skills-grid">
+        <!-- Card 1 -->
+        <div class="skill-box">
+          <div class="skill-box-header">
+            <span class="skill-icon">💻</span>
+            <h3>Programming Languages</h3>
+          </div>
+          <ul class="skill-list">
+            <li>
+              <span class="skill-name">Java</span>
+              <span class="badge badge-accent">Core & OOP</span>
+            </li>
+            <li>
+              <span class="skill-name">Python</span>
+              <span class="badge badge-accent">Scripting & Logic</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="skill-box">
+          <div class="skill-box-header">
+            <span class="skill-icon">🎨</span>
+            <h3>Web Development</h3>
+          </div>
+          <ul class="skill-list">
+            <li>
+              <span class="skill-name">HTML5</span>
+              <span class="badge">Structure</span>
+            </li>
+            <li>
+              <span class="skill-name">CSS3</span>
+              <span class="badge">Styling & Themes</span>
+            </li>
+            <li>
+              <span class="skill-name">JavaScript</span>
+              <span class="badge">Interactivity</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="skill-box">
+          <div class="skill-box-header">
+            <span class="skill-icon">🛠️</span>
+            <h3>Tools & Workflow</h3>
+          </div>
+          <ul class="skill-list">
+            <li>
+              <span class="skill-name">Git</span>
+              <span class="badge">Version Control</span>
+            </li>
+            <li>
+              <span class="skill-name">GitHub</span>
+              <span class="badge">Open Source</span>
+            </li>
+            <li>
+              <span class="skill-name">VS Code</span>
+              <span class="badge">Code Editor</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="skill-box">
+          <div class="skill-box-header">
+            <span class="skill-icon">🧠</span>
+            <h3>Core Concepts</h3>
+          </div>
+          <ul class="skill-list">
+            <li>
+              <span class="skill-name">OOP Principles</span>
+              <span class="badge">Encapsulation & Classes</span>
+            </li>
+            <li>
+              <span class="skill-name">Algorithmic Logic</span>
+              <span class="badge">Conditionals & Loops</span>
+            </li>
+            <li>
+              <span class="skill-name">Continuous Learning</span>
+              <span class="badge badge-accent">Every Day</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= PROJECTS SECTION ================= -->
+  <section id="projects" class="section">
+    <div class="container">
+      <div class="section-tag">Showcase</div>
+      <h2 class="section-title">My Projects</h2>
+      <p class="section-subtitle">
+        Every developer starts with their first project. Here is mine!
+      </p>
+
+      <div class="projects-grid">
+        
+        <!-- Project 1: Portfolio -->
+        <div class="project-card project-card-featured">
+          <div class="project-top">
+            <span class="project-tag">⭐ 1st Ever Project</span>
+            <span class="project-status status-completed">Completed</span>
+          </div>
+
+          <h3 class="project-title">Personal Portfolio Website</h3>
+          <p class="project-desc">
+            The website you are looking at right now! Built from scratch with pure HTML, CSS, and Vanilla JavaScript. 
+            Features an interactive Dark/Light mode toggle, smooth scrolling, and mobile responsiveness.
+          </p>
+
+          <div class="project-tech-tags">
+            <span>HTML5</span>
+            <span>CSS3</span>
+            <span>JavaScript</span>
+            <span>GitHub Pages</span>
+          </div>
+
+          <div class="project-links">
+            <a href="https://github.com/ApoorvGaur31" target="_blank" rel="noopener noreferrer" class="project-link">
+              View on GitHub →
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 2: Python Script -->
+        <div class="project-card">
+          <div class="project-top">
+            <span class="project-tag">Python Practice</span>
+            <span class="project-status status-learning">In Progress</span>
+          </div>
+
+          <h3 class="project-title">Python Problem Solver & Script</h3>
+          <p class="project-desc">
+            A command-line script implementing practice logic problems, loops, and basic automation. 
+            Designed to reinforce Python syntax, functions, and error handling.
+          </p>
+
+          <div class="project-tech-tags">
+            <span>Python 3</span>
+            <span>CLI</span>
+            <span>Logic</span>
+          </div>
+
+          <div class="project-links">
+            <a href="https://github.com/ApoorvGaur31" target="_blank" rel="noopener noreferrer" class="project-link">
+              GitHub Profile →
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 3: Java Project -->
+        <div class="project-card">
+          <div class="project-top">
+            <span class="project-tag">Java OOP</span>
+            <span class="project-status status-learning">In Progress</span>
+          </div>
+
+          <h3 class="project-title">Java Console Application</h3>
+          <p class="project-desc">
+            A menu-driven object-oriented program modeling real-world concepts with classes, encapsulation, 
+            and methods (e.g. basic bank system or student manager).
+          </p>
+
+          <div class="project-tech-tags">
+            <span>Java</span>
+            <span>OOP</span>
+            <span>Console UI</span>
+          </div>
+
+          <div class="project-links">
+            <a href="https://github.com/ApoorvGaur31" target="_blank" rel="noopener noreferrer" class="project-link">
+              GitHub Profile →
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CONTACT SECTION ================= -->
+  <section id="contact" class="section section-alt">
+    <div class="container">
+      <div class="section-tag">Let's Connect</div>
+      <h2 class="section-title">Get In Touch</h2>
+      <p class="section-subtitle">
+        I am always excited to connect with other developers, share learning resources, or receive advice!
+      </p>
+
+      <div class="contact-wrapper">
+        <!-- Direct Links Box -->
+        <div class="contact-cards">
+          
+          <div class="contact-item">
+            <div class="contact-icon">✉️</div>
+            <div class="contact-details">
+              <h4>Email Me</h4>
+              <a href="https://mail.google.com/mail/?view=cm&fs=1&to=apoorvgaur2006@gmail.com" target="_blank" rel="noopener noreferrer" class="contact-text" id="email-text" style="color:var(--primary); text-decoration:underline;">apoorvgaur2006@gmail.com ↗</a>
+            </div>
+            <button id="copy-email-btn" class="btn btn-sm btn-outline">Copy</button>
+          </div>
+
+          <a href="https://github.com/ApoorvGaur31" target="_blank" rel="noopener noreferrer" class="contact-item">
+            <div class="contact-icon">🐙</div>
+            <div class="contact-details">
+              <h4>GitHub</h4>
+              <span class="contact-text">github.com/ApoorvGaur31</span>
+            </div>
+            <span class="arrow-indicator">→</span>
+          </a>
+
+          <a href="https://www.linkedin.com/in/apoorv-gaur-6a7969313/" target="_blank" rel="noopener noreferrer" class="contact-item">
+            <div class="contact-icon">💼</div>
+            <div class="contact-details">
+              <h4>LinkedIn</h4>
+              <span class="contact-text">apoorv-gaur</span>
+            </div>
+            <span class="arrow-indicator">→</span>
+          </a>
+
+        </div>
+
+        <!-- Simple Message Form -->
+        <div class="contact-form-box">
+          <h3>Send a Quick Note</h3>
+          <form id="contact-form">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" required placeholder="e.g. Alex" />
+            </div>
+
+            <div class="form-group">
+              <label for="email">Your Email</label>
+              <input type="email" id="email" required placeholder="e.g. alex@example.com" />
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" rows="3" required placeholder="Hi Apoorv, let's connect!"></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-block">Send via Email</button>
+          </form>
+          <div id="form-feedback" class="form-feedback hidden"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-left">
+        <strong>Apoorv Gaur</strong> — Built with pure HTML, CSS & JavaScript.
+      </div>
+      <div class="footer-right">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <button id="back-to-top" class="btn-top" title="Back to top">↑</button>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript file for interactivity -->
+  <script src="script.js"></script>
+</body>
+</html>
